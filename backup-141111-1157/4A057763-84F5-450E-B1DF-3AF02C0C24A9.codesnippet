@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIButton_</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *btn = [UIButton buttonWithType:&lt;#(UIButtonType)#&gt;];
+[btn setTitle:&lt;#(NSString *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+[btn setFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+[btn setImage:&lt;#(UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+[btn setBackgroundImage:&lt;#(UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+[btn addTarget:self action:@selector(&lt;#(id)#&gt;) forControlEvents:UIControlEventTouchUpInside];
+[&lt;#(id)#&gt; addSubview:btn];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4A057763-84F5-450E-B1DF-3AF02C0C24A9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton_</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

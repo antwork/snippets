@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@applicationDidFinishLauch_imports</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#import &lt;QuartzCore/QuartzCore.h&gt;
+#import "MMLoadingViewController.h"
+#import "LBIAPHelper.h"
+#import "CCMVLoading.h"
+#import &lt;ShareSDK/ShareSDK.h&gt;
+#import "BaokuLib.h"
+#import "MobClick.h"
+#import &lt;YAJLiOS/YAJL.h&gt;
+#include &lt;sys/socket.h&gt;
+#include &lt;sys/sysctl.h&gt;
+#include &lt;net/if.h&gt;
+#include &lt;net/if_dl.h&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FCE4C947-7091-4AC3-BFF6-1361FB7F45B7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>@applicationDidFinishLauch_imports</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>didFinishLauching(import)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

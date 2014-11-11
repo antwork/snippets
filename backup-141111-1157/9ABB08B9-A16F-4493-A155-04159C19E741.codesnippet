@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@presentViewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#Class#&gt; *viewController = [[&lt;#Class#&gt; alloc] init];
+    viewController.&lt;#Class#&gt; = &lt;#Class#&gt;;
+    viewController.&lt;#Class#&gt; = &lt;#Class#&gt;;
+    viewController.&lt;#Class#&gt; = &lt;#Class#&gt;;
+    [self presentViewController:viewController animated:YES completion:^{
+        &lt;#code#&gt;
+    }]];
+    [viewController release];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9ABB08B9-A16F-4493-A155-04159C19E741</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>@presentViewController</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PresentViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

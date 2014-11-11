@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@constraints_top_right_bottom</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[&lt;#id#&gt; addConstraints:@[
+                           [NSLayoutConstraint constraintWithItem:&lt;#id#&gt; attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:&lt;#id#&gt; attribute:NSLayoutAttributeTop multiplier:1.0 constant:0.0],
+                           [NSLayoutConstraint constraintWithItem:&lt;#id#&gt; attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:&lt;#id#&gt; attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0],
+                           [NSLayoutConstraint constraintWithItem:&lt;#id#&gt; attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:&lt;#id#&gt; attribute:alignmentAttribute multiplier:1.0 constant:0.0],
+                           ]];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>49B13830-C851-40CD-9E09-0F4279C5D58E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>constraints_top_right_bottom</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>constraints_top_right_bottom</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

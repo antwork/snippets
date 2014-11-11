@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>CCSprite_</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#id#&gt; = [CCSprite spriteWithImageNamed:@"&lt;#id#&gt;"];
+        &lt;#id#&gt;.position = ccp(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;);
+        [&lt;#id#&gt; addChild:&lt;#id#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D01D7763-C978-49E4-ADD0-9C7BDA7433EF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CCSprite_</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CCSprite_</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

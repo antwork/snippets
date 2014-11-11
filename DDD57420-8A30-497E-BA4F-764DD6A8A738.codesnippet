@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@result_handle</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (success) {
+    [weakSelf showHUDInViewController:self title:@"请求成功"];
+} else {
+    [weakSelf showHUDInViewController:self title:@"请求失败"];
+}
+
+[weakSelf hideHudAfterDelay:1.5];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DDD57420-8A30-497E-BA4F-764DD6A8A738</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>@result_handle</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>@result_handle</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@constraintNew</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSLayoutConstraint *widthConstraint = [NSLayoutConstraint constraintWithItem:&lt;#...#&gt; attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:&lt;#...#&gt;.0f];
+    [&lt;#...#&gt; addConstraint:widthConstraint];
+    
+    NSLayoutConstraint *heightConstraint = [NSLayoutConstraint constraintWithItem:&lt;#...#&gt; attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:&lt;#...#&gt;.0f];
+    [&lt;#...#&gt; addConstraint:heightConstraint];
+    
+    NSLayoutConstraint *centerXConstraint = [NSLayoutConstraint constraintWithItem:&lt;#...#&gt; attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:&lt;#...#&gt; attribute:NSLayoutAttributeCenterX multiplier:1.0f constant:&lt;#...#&gt;.0f];
+    [&lt;#...#&gt; addConstraint:centerXConstraint];
+    
+    NSLayoutConstraint *centerYConstraint = [NSLayoutConstraint constraintWithItem:&lt;#...#&gt; attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:&lt;#...#&gt; attribute:NSLayoutAttributeCenterY multiplier:1.0f constant:&lt;#...#&gt;.0f];
+    [&lt;#...#&gt; addConstraint:centerYConstraint];
+    
+    
+    UIView *layoutView = &lt;#id#&gt;;
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[layoutView]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(layoutView)]];
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[layoutView]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(layoutView)]];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F70F272F-CA8B-4731-B07A-8C8C26307301</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>@constraintNew</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>@constraintNew</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

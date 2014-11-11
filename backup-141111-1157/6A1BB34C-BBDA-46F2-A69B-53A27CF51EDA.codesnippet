@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIAlertView_input</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"&lt;#string#&gt;"
+                                                    message:nil
+                                                   delegate:self
+                                          cancelButtonTitle:@"&lt;#string#&gt;"
+                                          otherButtonTitles:@"&lt;#string#&gt;",nil];
+    
+    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+    alert.tag = &lt;#NSNumber#&gt;;
+    UITextField *textField = [alert textFieldAtIndex:0];
+    textField.placeholder = @"&lt;#string#&gt;";
+    textField.text = @"&lt;#string#&gt;";
+    [alert show];
+    [alert release];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6A1BB34C-BBDA-46F2-A69B-53A27CF51EDA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIAlertView_input</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAlertview(Input)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
